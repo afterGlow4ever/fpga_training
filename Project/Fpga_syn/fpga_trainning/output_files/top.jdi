@@ -1,0 +1,455 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="ad54a0704a18fea17309"/>
+  </project>
+  <file_info>
+    <file device="EP4CE10F17C8" path="top.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <hub_info hub_ir_width="10" ir_width="10" node_addr_width="2" node_count="2"/>
+  <node_info>
+    <node hpath="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|sld_signaltap:sld_signaltap_component" instance_id="0" mfg_id="110" node_id="2" sld_node_info="0x30106E00" version="6">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="sld_signaltap"/>
+        <parameter name="sld_node_info" type="dec" value="1076736"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="sld_data_bits" type="dec" value="64"/>
+        <parameter name="sld_trigger_bits" type="dec" value="64"/>
+        <parameter name="sld_node_crc_bits" type="dec" value="32"/>
+        <parameter name="sld_node_crc_hiword" type="dec" value="14697"/>
+        <parameter name="sld_node_crc_loword" type="dec" value="5412"/>
+        <parameter name="SLD_INCREMENTAL_ROUTING" type="dec" value="0"/>
+        <parameter name="sld_sample_depth" type="dec" value="1024"/>
+        <parameter name="SLD_SEGMENT_SIZE" type="dec" value="0"/>
+        <parameter name="sld_ram_block_type" type="string" value="AUTO"/>
+        <parameter name="SLD_STATE_BITS" type="dec" value="11"/>
+        <parameter name="SLD_BUFFER_FULL_STOP" type="dec" value="1"/>
+        <parameter name="sld_mem_address_bits" type="dec" value="10"/>
+        <parameter name="sld_data_bit_cntr_bits" type="dec" value="7"/>
+        <parameter name="sld_trigger_level" type="dec" value="1"/>
+        <parameter name="sld_trigger_in_enabled" type="dec" value="0"/>
+        <parameter name="SLD_HPS_TRIGGER_IN_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_TRIGGER_OUT_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_EVENT_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_EVENT_ID" type="dec" value="0"/>
+        <parameter name="sld_advanced_trigger_entity" type="string" value="basic,1,"/>
+        <parameter name="sld_trigger_level_pipeline" type="dec" value="1"/>
+        <parameter name="sld_enable_advanced_trigger" type="dec" value="0"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_1" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_2" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_3" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_4" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_5" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_6" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_7" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_8" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_9" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_10" type="string" value="NONE"/>
+        <parameter name="SLD_INVERSION_MASK_LENGTH" type="dec" value="1"/>
+        <parameter name="SLD_INVERSION_MASK" type="ubin" value="0"/>
+        <parameter name="SLD_POWER_UP_TRIGGER" type="dec" value="0"/>
+        <parameter name="SLD_STATE_FLOW_MGR_ENTITY" type="string" value="state_flow_mgr_entity.vhd"/>
+        <parameter name="SLD_STATE_FLOW_USE_GENERATED" type="dec" value="0"/>
+        <parameter name="SLD_CURRENT_RESOURCE_WIDTH" type="dec" value="0"/>
+        <parameter name="SLD_ATTRIBUTE_MEM_MODE" type="string" value="OFF"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_BITS" type="dec" value="1"/>
+        <parameter name="sld_storage_qualifier_gap_record" type="dec" value="0"/>
+        <parameter name="sld_storage_qualifier_mode" type="string" value="OFF"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION" type="dec" value="0"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH" type="dec" value="0"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY" type="string" value="basic"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_PIPELINE" type="dec" value="0"/>
+      </parameters>
+      <inputs>
+        <port name="acq_clk" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_clk"/>
+        <port name="acq_data_in[0]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[0]"/>
+        <port name="acq_data_in[1]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[1]"/>
+        <port name="acq_data_in[2]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[2]"/>
+        <port name="acq_data_in[3]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[3]"/>
+        <port name="acq_data_in[4]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[4]"/>
+        <port name="acq_data_in[5]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[5]"/>
+        <port name="acq_data_in[6]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[6]"/>
+        <port name="acq_data_in[7]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[7]"/>
+        <port name="acq_data_in[8]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[8]"/>
+        <port name="acq_data_in[9]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[9]"/>
+        <port name="acq_data_in[10]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[10]"/>
+        <port name="acq_data_in[11]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[11]"/>
+        <port name="acq_data_in[12]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[12]"/>
+        <port name="acq_data_in[13]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[13]"/>
+        <port name="acq_data_in[14]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[14]"/>
+        <port name="acq_data_in[15]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[15]"/>
+        <port name="acq_data_in[16]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[16]"/>
+        <port name="acq_data_in[17]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[17]"/>
+        <port name="acq_data_in[18]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[18]"/>
+        <port name="acq_data_in[19]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[19]"/>
+        <port name="acq_data_in[20]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[20]"/>
+        <port name="acq_data_in[21]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[21]"/>
+        <port name="acq_data_in[22]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[22]"/>
+        <port name="acq_data_in[23]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[23]"/>
+        <port name="acq_data_in[24]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[24]"/>
+        <port name="acq_data_in[25]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[25]"/>
+        <port name="acq_data_in[26]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[26]"/>
+        <port name="acq_data_in[27]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[27]"/>
+        <port name="acq_data_in[28]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[28]"/>
+        <port name="acq_data_in[29]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[29]"/>
+        <port name="acq_data_in[30]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[30]"/>
+        <port name="acq_data_in[31]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[31]"/>
+        <port name="acq_data_in[32]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[32]"/>
+        <port name="acq_data_in[33]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[33]"/>
+        <port name="acq_data_in[34]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[34]"/>
+        <port name="acq_data_in[35]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[35]"/>
+        <port name="acq_data_in[36]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[36]"/>
+        <port name="acq_data_in[37]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[37]"/>
+        <port name="acq_data_in[38]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[38]"/>
+        <port name="acq_data_in[39]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[39]"/>
+        <port name="acq_data_in[40]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[40]"/>
+        <port name="acq_data_in[41]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[41]"/>
+        <port name="acq_data_in[42]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[42]"/>
+        <port name="acq_data_in[43]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[43]"/>
+        <port name="acq_data_in[44]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[44]"/>
+        <port name="acq_data_in[45]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[45]"/>
+        <port name="acq_data_in[46]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[46]"/>
+        <port name="acq_data_in[47]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[47]"/>
+        <port name="acq_data_in[48]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[48]"/>
+        <port name="acq_data_in[49]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[49]"/>
+        <port name="acq_data_in[50]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[50]"/>
+        <port name="acq_data_in[51]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[51]"/>
+        <port name="acq_data_in[52]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[52]"/>
+        <port name="acq_data_in[53]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[53]"/>
+        <port name="acq_data_in[54]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[54]"/>
+        <port name="acq_data_in[55]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[55]"/>
+        <port name="acq_data_in[56]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[56]"/>
+        <port name="acq_data_in[57]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[57]"/>
+        <port name="acq_data_in[58]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[58]"/>
+        <port name="acq_data_in[59]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[59]"/>
+        <port name="acq_data_in[60]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[60]"/>
+        <port name="acq_data_in[61]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[61]"/>
+        <port name="acq_data_in[62]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[62]"/>
+        <port name="acq_data_in[63]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_data_in[63]"/>
+        <port name="acq_trigger_in[0]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[0]"/>
+        <port name="acq_trigger_in[1]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[1]"/>
+        <port name="acq_trigger_in[2]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[2]"/>
+        <port name="acq_trigger_in[3]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[3]"/>
+        <port name="acq_trigger_in[4]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[4]"/>
+        <port name="acq_trigger_in[5]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[5]"/>
+        <port name="acq_trigger_in[6]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[6]"/>
+        <port name="acq_trigger_in[7]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[7]"/>
+        <port name="acq_trigger_in[8]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[8]"/>
+        <port name="acq_trigger_in[9]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[9]"/>
+        <port name="acq_trigger_in[10]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[10]"/>
+        <port name="acq_trigger_in[11]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[11]"/>
+        <port name="acq_trigger_in[12]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[12]"/>
+        <port name="acq_trigger_in[13]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[13]"/>
+        <port name="acq_trigger_in[14]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[14]"/>
+        <port name="acq_trigger_in[15]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[15]"/>
+        <port name="acq_trigger_in[16]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[16]"/>
+        <port name="acq_trigger_in[17]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[17]"/>
+        <port name="acq_trigger_in[18]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[18]"/>
+        <port name="acq_trigger_in[19]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[19]"/>
+        <port name="acq_trigger_in[20]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[20]"/>
+        <port name="acq_trigger_in[21]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[21]"/>
+        <port name="acq_trigger_in[22]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[22]"/>
+        <port name="acq_trigger_in[23]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[23]"/>
+        <port name="acq_trigger_in[24]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[24]"/>
+        <port name="acq_trigger_in[25]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[25]"/>
+        <port name="acq_trigger_in[26]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[26]"/>
+        <port name="acq_trigger_in[27]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[27]"/>
+        <port name="acq_trigger_in[28]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[28]"/>
+        <port name="acq_trigger_in[29]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[29]"/>
+        <port name="acq_trigger_in[30]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[30]"/>
+        <port name="acq_trigger_in[31]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[31]"/>
+        <port name="acq_trigger_in[32]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[32]"/>
+        <port name="acq_trigger_in[33]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[33]"/>
+        <port name="acq_trigger_in[34]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[34]"/>
+        <port name="acq_trigger_in[35]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[35]"/>
+        <port name="acq_trigger_in[36]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[36]"/>
+        <port name="acq_trigger_in[37]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[37]"/>
+        <port name="acq_trigger_in[38]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[38]"/>
+        <port name="acq_trigger_in[39]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[39]"/>
+        <port name="acq_trigger_in[40]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[40]"/>
+        <port name="acq_trigger_in[41]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[41]"/>
+        <port name="acq_trigger_in[42]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[42]"/>
+        <port name="acq_trigger_in[43]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[43]"/>
+        <port name="acq_trigger_in[44]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[44]"/>
+        <port name="acq_trigger_in[45]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[45]"/>
+        <port name="acq_trigger_in[46]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[46]"/>
+        <port name="acq_trigger_in[47]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[47]"/>
+        <port name="acq_trigger_in[48]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[48]"/>
+        <port name="acq_trigger_in[49]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[49]"/>
+        <port name="acq_trigger_in[50]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[50]"/>
+        <port name="acq_trigger_in[51]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[51]"/>
+        <port name="acq_trigger_in[52]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[52]"/>
+        <port name="acq_trigger_in[53]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[53]"/>
+        <port name="acq_trigger_in[54]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[54]"/>
+        <port name="acq_trigger_in[55]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[55]"/>
+        <port name="acq_trigger_in[56]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[56]"/>
+        <port name="acq_trigger_in[57]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[57]"/>
+        <port name="acq_trigger_in[58]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[58]"/>
+        <port name="acq_trigger_in[59]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[59]"/>
+        <port name="acq_trigger_in[60]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[60]"/>
+        <port name="acq_trigger_in[61]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[61]"/>
+        <port name="acq_trigger_in[62]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[62]"/>
+        <port name="acq_trigger_in[63]" source="ram_top:u_ram_top|fpga_training_stp:fpga_training_stp_ram|acq_trigger_in[63]"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_raw_tck" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_raw_tck"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_tdi" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_tdi"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_usr1" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_usr1"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_rti" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_rti"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_shift" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_shift"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_update" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_update"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_cdr" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_cdr"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_sdr" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_sdr"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_e1dr" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_udr" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_udr"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_uir" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_jtag_state_uir"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_clr" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_clr"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ena" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ena"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_0_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_0_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_1_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_1_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_2_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_2_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_3_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_3_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_4_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_4_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_5_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_5_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_6_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_6_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_7_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_7_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_8_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_8_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_9_" source="ram_top:u_ram_top|jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_in_9_"/>
+      </inputs>
+      <outputs>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_0_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_1_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_2_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_3_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_4_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_5_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_6_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_7_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_8_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_ir_out_9_"/>
+        <port name="jtag.bp.fpga_training_stp_ram_sld_signaltap_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|sld_signaltap:sld_signaltap_component" instance_id="1" mfg_id="110" node_id="2" sld_node_info="0x30106E01" version="6">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="sld_signaltap"/>
+        <parameter name="sld_node_info" type="dec" value="1076736"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="sld_data_bits" type="dec" value="64"/>
+        <parameter name="sld_trigger_bits" type="dec" value="64"/>
+        <parameter name="sld_node_crc_bits" type="dec" value="32"/>
+        <parameter name="sld_node_crc_hiword" type="dec" value="14697"/>
+        <parameter name="sld_node_crc_loword" type="dec" value="5412"/>
+        <parameter name="SLD_INCREMENTAL_ROUTING" type="dec" value="0"/>
+        <parameter name="sld_sample_depth" type="dec" value="1024"/>
+        <parameter name="SLD_SEGMENT_SIZE" type="dec" value="0"/>
+        <parameter name="sld_ram_block_type" type="string" value="AUTO"/>
+        <parameter name="SLD_STATE_BITS" type="dec" value="11"/>
+        <parameter name="SLD_BUFFER_FULL_STOP" type="dec" value="1"/>
+        <parameter name="sld_mem_address_bits" type="dec" value="10"/>
+        <parameter name="sld_data_bit_cntr_bits" type="dec" value="7"/>
+        <parameter name="sld_trigger_level" type="dec" value="1"/>
+        <parameter name="sld_trigger_in_enabled" type="dec" value="0"/>
+        <parameter name="SLD_HPS_TRIGGER_IN_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_TRIGGER_OUT_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_EVENT_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_EVENT_ID" type="dec" value="0"/>
+        <parameter name="sld_advanced_trigger_entity" type="string" value="basic,1,"/>
+        <parameter name="sld_trigger_level_pipeline" type="dec" value="1"/>
+        <parameter name="sld_enable_advanced_trigger" type="dec" value="0"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_1" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_2" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_3" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_4" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_5" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_6" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_7" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_8" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_9" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_10" type="string" value="NONE"/>
+        <parameter name="SLD_INVERSION_MASK_LENGTH" type="dec" value="1"/>
+        <parameter name="SLD_INVERSION_MASK" type="ubin" value="0"/>
+        <parameter name="SLD_POWER_UP_TRIGGER" type="dec" value="0"/>
+        <parameter name="SLD_STATE_FLOW_MGR_ENTITY" type="string" value="state_flow_mgr_entity.vhd"/>
+        <parameter name="SLD_STATE_FLOW_USE_GENERATED" type="dec" value="0"/>
+        <parameter name="SLD_CURRENT_RESOURCE_WIDTH" type="dec" value="0"/>
+        <parameter name="SLD_ATTRIBUTE_MEM_MODE" type="string" value="OFF"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_BITS" type="dec" value="1"/>
+        <parameter name="sld_storage_qualifier_gap_record" type="dec" value="0"/>
+        <parameter name="sld_storage_qualifier_mode" type="string" value="OFF"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION" type="dec" value="0"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH" type="dec" value="0"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY" type="string" value="basic"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_PIPELINE" type="dec" value="0"/>
+      </parameters>
+      <inputs>
+        <port name="acq_clk" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_clk"/>
+        <port name="acq_data_in[0]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[0]"/>
+        <port name="acq_data_in[1]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[1]"/>
+        <port name="acq_data_in[2]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[2]"/>
+        <port name="acq_data_in[3]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[3]"/>
+        <port name="acq_data_in[4]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[4]"/>
+        <port name="acq_data_in[5]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[5]"/>
+        <port name="acq_data_in[6]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[6]"/>
+        <port name="acq_data_in[7]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[7]"/>
+        <port name="acq_data_in[8]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[8]"/>
+        <port name="acq_data_in[9]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[9]"/>
+        <port name="acq_data_in[10]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[10]"/>
+        <port name="acq_data_in[11]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[11]"/>
+        <port name="acq_data_in[12]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[12]"/>
+        <port name="acq_data_in[13]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[13]"/>
+        <port name="acq_data_in[14]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[14]"/>
+        <port name="acq_data_in[15]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[15]"/>
+        <port name="acq_data_in[16]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[16]"/>
+        <port name="acq_data_in[17]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[17]"/>
+        <port name="acq_data_in[18]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[18]"/>
+        <port name="acq_data_in[19]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[19]"/>
+        <port name="acq_data_in[20]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[20]"/>
+        <port name="acq_data_in[21]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[21]"/>
+        <port name="acq_data_in[22]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[22]"/>
+        <port name="acq_data_in[23]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[23]"/>
+        <port name="acq_data_in[24]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[24]"/>
+        <port name="acq_data_in[25]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[25]"/>
+        <port name="acq_data_in[26]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[26]"/>
+        <port name="acq_data_in[27]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[27]"/>
+        <port name="acq_data_in[28]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[28]"/>
+        <port name="acq_data_in[29]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[29]"/>
+        <port name="acq_data_in[30]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[30]"/>
+        <port name="acq_data_in[31]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[31]"/>
+        <port name="acq_data_in[32]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[32]"/>
+        <port name="acq_data_in[33]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[33]"/>
+        <port name="acq_data_in[34]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[34]"/>
+        <port name="acq_data_in[35]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[35]"/>
+        <port name="acq_data_in[36]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[36]"/>
+        <port name="acq_data_in[37]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[37]"/>
+        <port name="acq_data_in[38]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[38]"/>
+        <port name="acq_data_in[39]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[39]"/>
+        <port name="acq_data_in[40]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[40]"/>
+        <port name="acq_data_in[41]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[41]"/>
+        <port name="acq_data_in[42]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[42]"/>
+        <port name="acq_data_in[43]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[43]"/>
+        <port name="acq_data_in[44]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[44]"/>
+        <port name="acq_data_in[45]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[45]"/>
+        <port name="acq_data_in[46]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[46]"/>
+        <port name="acq_data_in[47]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[47]"/>
+        <port name="acq_data_in[48]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[48]"/>
+        <port name="acq_data_in[49]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[49]"/>
+        <port name="acq_data_in[50]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[50]"/>
+        <port name="acq_data_in[51]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[51]"/>
+        <port name="acq_data_in[52]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[52]"/>
+        <port name="acq_data_in[53]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[53]"/>
+        <port name="acq_data_in[54]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[54]"/>
+        <port name="acq_data_in[55]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[55]"/>
+        <port name="acq_data_in[56]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[56]"/>
+        <port name="acq_data_in[57]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[57]"/>
+        <port name="acq_data_in[58]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[58]"/>
+        <port name="acq_data_in[59]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[59]"/>
+        <port name="acq_data_in[60]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[60]"/>
+        <port name="acq_data_in[61]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[61]"/>
+        <port name="acq_data_in[62]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[62]"/>
+        <port name="acq_data_in[63]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_data_in[63]"/>
+        <port name="acq_trigger_in[0]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[0]"/>
+        <port name="acq_trigger_in[1]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[1]"/>
+        <port name="acq_trigger_in[2]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[2]"/>
+        <port name="acq_trigger_in[3]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[3]"/>
+        <port name="acq_trigger_in[4]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[4]"/>
+        <port name="acq_trigger_in[5]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[5]"/>
+        <port name="acq_trigger_in[6]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[6]"/>
+        <port name="acq_trigger_in[7]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[7]"/>
+        <port name="acq_trigger_in[8]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[8]"/>
+        <port name="acq_trigger_in[9]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[9]"/>
+        <port name="acq_trigger_in[10]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[10]"/>
+        <port name="acq_trigger_in[11]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[11]"/>
+        <port name="acq_trigger_in[12]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[12]"/>
+        <port name="acq_trigger_in[13]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[13]"/>
+        <port name="acq_trigger_in[14]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[14]"/>
+        <port name="acq_trigger_in[15]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[15]"/>
+        <port name="acq_trigger_in[16]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[16]"/>
+        <port name="acq_trigger_in[17]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[17]"/>
+        <port name="acq_trigger_in[18]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[18]"/>
+        <port name="acq_trigger_in[19]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[19]"/>
+        <port name="acq_trigger_in[20]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[20]"/>
+        <port name="acq_trigger_in[21]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[21]"/>
+        <port name="acq_trigger_in[22]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[22]"/>
+        <port name="acq_trigger_in[23]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[23]"/>
+        <port name="acq_trigger_in[24]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[24]"/>
+        <port name="acq_trigger_in[25]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[25]"/>
+        <port name="acq_trigger_in[26]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[26]"/>
+        <port name="acq_trigger_in[27]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[27]"/>
+        <port name="acq_trigger_in[28]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[28]"/>
+        <port name="acq_trigger_in[29]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[29]"/>
+        <port name="acq_trigger_in[30]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[30]"/>
+        <port name="acq_trigger_in[31]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[31]"/>
+        <port name="acq_trigger_in[32]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[32]"/>
+        <port name="acq_trigger_in[33]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[33]"/>
+        <port name="acq_trigger_in[34]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[34]"/>
+        <port name="acq_trigger_in[35]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[35]"/>
+        <port name="acq_trigger_in[36]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[36]"/>
+        <port name="acq_trigger_in[37]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[37]"/>
+        <port name="acq_trigger_in[38]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[38]"/>
+        <port name="acq_trigger_in[39]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[39]"/>
+        <port name="acq_trigger_in[40]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[40]"/>
+        <port name="acq_trigger_in[41]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[41]"/>
+        <port name="acq_trigger_in[42]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[42]"/>
+        <port name="acq_trigger_in[43]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[43]"/>
+        <port name="acq_trigger_in[44]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[44]"/>
+        <port name="acq_trigger_in[45]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[45]"/>
+        <port name="acq_trigger_in[46]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[46]"/>
+        <port name="acq_trigger_in[47]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[47]"/>
+        <port name="acq_trigger_in[48]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[48]"/>
+        <port name="acq_trigger_in[49]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[49]"/>
+        <port name="acq_trigger_in[50]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[50]"/>
+        <port name="acq_trigger_in[51]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[51]"/>
+        <port name="acq_trigger_in[52]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[52]"/>
+        <port name="acq_trigger_in[53]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[53]"/>
+        <port name="acq_trigger_in[54]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[54]"/>
+        <port name="acq_trigger_in[55]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[55]"/>
+        <port name="acq_trigger_in[56]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[56]"/>
+        <port name="acq_trigger_in[57]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[57]"/>
+        <port name="acq_trigger_in[58]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[58]"/>
+        <port name="acq_trigger_in[59]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[59]"/>
+        <port name="acq_trigger_in[60]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[60]"/>
+        <port name="acq_trigger_in[61]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[61]"/>
+        <port name="acq_trigger_in[62]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[62]"/>
+        <port name="acq_trigger_in[63]" source="fifo_top:u_fifo_top|fpga_training_stp:fpga_training_stp_fifo|acq_trigger_in[63]"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_raw_tck" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_raw_tck"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_tdi" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_tdi"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_usr1" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_usr1"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_rti" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_rti"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_shift" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_shift"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_update" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_update"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_cdr" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_cdr"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_sdr" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_sdr"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_e1dr" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_udr" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_udr"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_uir" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_jtag_state_uir"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_clr" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_clr"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ena" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ena"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_0_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_0_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_1_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_1_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_2_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_2_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_3_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_3_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_4_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_4_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_5_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_5_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_6_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_6_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_7_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_7_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_8_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_8_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_9_" source="fifo_top:u_fifo_top|jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_in_9_"/>
+      </inputs>
+      <outputs>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_0_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_1_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_2_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_3_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_4_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_5_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_6_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_7_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_8_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_ir_out_9_"/>
+        <port name="jtag.bp.fpga_training_stp_fifo_sld_signaltap_component_tdo"/>
+      </outputs>
+    </node>
+  </node_info>
+</sld_project_info>

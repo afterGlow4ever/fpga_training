@@ -1,0 +1,92 @@
+# Reading C:/ResearchProgram/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile D:/project/fpga_training/Sim/Verilog_sim/fifo_test/fifo_test.mpf
+# Loading project fifo_test
+vlog
+# Modified D:/project/fpga_training/Sim/Verilog_sim/fifo_test/fifo_test.mpf
+vlog
+# Modified D:/project/fpga_training/Sim/Verilog_sim/fifo_test/fifo_test.mpf
+# Compile of clock_tree.v was successful.
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of fifo_rd.v was successful.
+# Compile of fifo_wr.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v was successful.
+# Compile of key_top.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of fifo_gen.v was successful.
+# Compile of ram_gen.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of fifo_tb.v was successful.
+# Compile of gray_code_gen.v was successful.
+# Compile of fifo_data_check.v was successful.
+# Compile of fifo_top.v was successful.
+# 20 compiles, 0 failed with no errors.
+vlog
+vsim -novopt work.fifo_tb
+# vsim -gui D:\project\fpga_training\Sim\Verilog_sim\fifo_test\fifo_test.mpf 
+# Start time: 18:45:01 on Jan 04,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.fifo_tb
+# Loading work.fifo_tb
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.top
+# Loading work.top
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.clock_tree
+# Loading work.clock_tree
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.clk_shift
+# Loading work.clk_shift
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.clk_even_division
+# Loading work.clk_even_division
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.ram_top
+# Loading work.ram_top
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.ram_rd
+# Loading work.ram_rd
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.ram_wr
+# Loading work.ram_wr
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.ram_2port_tp
+# Loading work.ram_2port_tp
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.ram_data_check
+# Loading work.ram_data_check
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.sync_ff
+# Loading work.sync_ff
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.fifo_top
+# Loading work.fifo_top
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.fifo_rd
+# Loading work.fifo_rd
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.fifo_wr
+# Loading work.fifo_wr
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.fifo_async
+# Loading work.fifo_async
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.gray_code_gen
+# Loading work.gray_code_gen
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.fifo_data_check
+# Loading work.fifo_data_check
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.key_top
+# Loading work.key_top
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.led_top
+# Loading work.led_top
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.key
+# Loading work.key
+# Refreshing D:/project/fpga_training/Sim/Verilog_sim/fifo_test/work.negedge_detect
+# Loading work.negedge_detect
+# End time: 18:45:12 on Jan 04,2021, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 1

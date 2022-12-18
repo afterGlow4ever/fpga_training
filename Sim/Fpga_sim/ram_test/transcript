@@ -1,0 +1,386 @@
+# Reading C:/ResearchProgram/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile D:/project/fpga_training/Sim/Fpga_sim/ram_test/pll_test.mpf
+# Loading project pll_test
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v was successful.
+# Compile of key_top.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of clock_tree.v was successful with warnings.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of sync_ff.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -novopt work.ram_tb
+# vsim -gui D:\project\fpga_training\Sim\Fpga_sim\ram_test\pll_test.mpf 
+# Start time: 18:09:30 on Dec 22,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_tb
+# Loading work.ram_tb
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.top
+# Loading work.top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.clock_tree
+# Loading work.clock_tree
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.pll0
+# Loading work.pll0
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.altpll
+# Loading work.altpll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.pll_iobuf
+# Loading work.pll_iobuf
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.pll1
+# Loading work.pll1
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_top
+# Loading work.ram_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_rd
+# Loading work.ram_rd
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_wr
+# Loading work.ram_wr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram0_2port
+# Loading work.ram0_2port
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.altsyncram
+# Loading work.altsyncram
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_data_check
+# Loading work.ram_data_check
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.sync_ff
+# Loading work.sync_ff
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.key_top
+# Loading work.key_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.led_top
+# Loading work.led_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.MF_cycloneiii_pll
+# Loading work.MF_cycloneiii_pll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.cda_m_cntr
+# Loading work.cda_m_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.cda_n_cntr
+# Loading work.cda_n_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.cda_scale_cntr
+# Loading work.cda_scale_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.key
+# Loading work.key
+add wave -position insertpoint  \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_en \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_addr \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_data \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_error \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_cnt \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_temp \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_temp_d \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_error_temp
+run
+# Running testbench
+# Simulation start...
+# 
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: ram_tb.u_top.u_ram_top.ram0_2port_inst.altsyncram_component
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: ram_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: ram_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# sys_rstn = 1
+# 
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: ram_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: ram_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# RAM running...
+# 
+# RAM stop...
+# 
+# RAM running...
+# 
+# RAM stop...
+# 
+# Simulation end.
+# 
+# ** Note: $stop    : D:/project/fpga_training/Sim/Fpga_sim/TB/ram_tb.v(47)
+#    Time: 4900 ns  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at D:/project/fpga_training/Sim/Fpga_sim/TB/ram_tb.v line 47
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v failed with 1 errors.
+# Compile of key_top.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of clock_tree.v was successful with warnings.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v failed with 1 errors.
+# 17 compiles, 2 failed with 2 errors.
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v failed with 1 errors.
+# Compile of key_top.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of clock_tree.v was successful with warnings.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v failed with 1 errors.
+# 17 compiles, 2 failed with 2 errors.
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v failed with 1 errors.
+# Compile of key_top.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of clock_tree.v was successful with warnings.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v was successful.
+# 17 compiles, 1 failed with 1 error.
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v was successful.
+# Compile of key_top.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of clock_tree.v was successful with warnings.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.ram_tb
+# vsim 
+# Start time: 18:26:03 on Dec 22,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_tb
+# Loading work.ram_tb
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.top
+# Loading work.top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.clock_tree
+# Loading work.clock_tree
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.pll0
+# Loading work.pll0
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.altpll
+# Loading work.altpll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.pll_iobuf
+# Loading work.pll_iobuf
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.pll1
+# Loading work.pll1
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_top
+# Loading work.ram_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_rd
+# Loading work.ram_rd
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_wr
+# Loading work.ram_wr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram0_2port
+# Loading work.ram0_2port
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.altsyncram
+# Loading work.altsyncram
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.ram_data_check
+# Loading work.ram_data_check
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.sync_ff
+# Loading work.sync_ff
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.key_top
+# Loading work.key_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.led_top
+# Loading work.led_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.MF_cycloneiii_pll
+# Loading work.MF_cycloneiii_pll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.cda_m_cntr
+# Loading work.cda_m_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.cda_n_cntr
+# Loading work.cda_n_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.cda_scale_cntr
+# Loading work.cda_scale_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.key
+# Loading work.key
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/ram_test/work.negedge_detect
+# Loading work.negedge_detect
+add wave -position insertpoint  \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_en \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_addr \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_data \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_error \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_rd_cnt \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_temp \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_temp_d \
+sim:/ram_tb/u_top/u_ram_top/u_ram_data_check/ram_data_error_temp
+run
+# Running testbench
+# Simulation start...
+# 
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: ram_tb.u_top.u_ram_top.ram0_2port_inst.altsyncram_component
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: ram_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: ram_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# sys_rstn = 1
+# 
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: ram_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: ram_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# RAM running...
+# 
+# RAM stop...
+# 
+# RAM running...
+# 
+# RAM stop...
+# 
+# Simulation end.
+# 
+# ** Note: $stop    : D:/project/fpga_training/Sim/Fpga_sim/TB/ram_tb.v(47)
+#    Time: 4900 ns  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at D:/project/fpga_training/Sim/Fpga_sim/TB/ram_tb.v line 47
+# Closing project D:/project/fpga_training/Sim/Fpga_sim/ram_test/pll_test.mpf
+# reading C:/ResearchProgram/modeltech64_10.4/win64/../modelsim.ini
+# Loading project led_test
+# error: Profile::MemProfileAvailable -> RPC Closed
+# Closing project D:/project/fpga_training/Sim/Fpga_sim/led_test/led_test.mpf
+# reading C:/ResearchProgram/modeltech64_10.4/win64/../modelsim.ini
+# Loading project led_test
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v was successful.
+# Compile of key_top.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_gen.v was successful.
+# Compile of clock_tree.v was successful with warnings.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of led_tb.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.led_tb
+# vsim 
+# Start time: 18:27:57 on Dec 22,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.led_tb
+# Loading work.led_tb
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.top
+# Loading work.top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.clock_tree
+# Loading work.clock_tree
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.pll0
+# Loading work.pll0
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.altpll
+# Loading work.altpll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.pll_iobuf
+# Loading work.pll_iobuf
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.pll1
+# Loading work.pll1
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ram_top
+# Loading work.ram_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ram_rd
+# Loading work.ram_rd
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ram_wr
+# Loading work.ram_wr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ram0_2port
+# Loading work.ram0_2port
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.altsyncram
+# Loading work.altsyncram
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.ram_data_check
+# Loading work.ram_data_check
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.sync_ff
+# Loading work.sync_ff
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.key_top
+# Loading work.key_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.led_top
+# Loading work.led_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.MF_cycloneiii_pll
+# Loading work.MF_cycloneiii_pll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.cda_m_cntr
+# Loading work.cda_m_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.cda_n_cntr
+# Loading work.cda_n_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.cda_scale_cntr
+# Loading work.cda_scale_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.key
+# Loading work.key
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/led_test/work.negedge_detect
+# Loading work.negedge_detect
+add wave -position insertpoint sim:/led_tb/u_top/u_ram_top/u_ram_data_check/*
+add wave -position insertpoint sim:/led_tb/u_top/u_key_top/*
+run
+# Running testbench
+# Simulation start...
+# 
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: led_tb.u_top.u_ram_top.ram0_2port_inst.altsyncram_component
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: led_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: led_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# sys_rstn = 1
+# 
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: led_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: led_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# Key pressed.
+# 
+# End time: 18:39:04 on Dec 22,2020, Elapsed time: 0:11:07
+# Errors: 0, Warnings: 1

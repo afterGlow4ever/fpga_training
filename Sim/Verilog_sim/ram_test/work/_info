@@ -1,0 +1,298 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ResearchProgram/modeltech64_10.4/examples
+vclk_even_division
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <3U@Y;KP`[2ezSYdY7DCL2
+I5MX3PO1MXHEEUNb7c0oh43
+Z1 dD:/project/fpga_training/Sim/Verilog_sim/ram_test
+Z2 w1607851181
+Z3 8D:/project/fpga_training/Library/rtl_logic/clock_gen.v
+Z4 FD:/project/fpga_training/Library/rtl_logic/clock_gen.v
+L0 16
+Z5 OL;L;10.4;61
+Z6 !s108 1608452206.178000
+Z7 !s107 D:/project/fpga_training/Library/rtl_logic/clock_gen.v|
+Z8 !s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Library/rtl_logic/clock_gen.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vclk_odd_division
+Z10 !s110 1608452206
+!i10b 1
+!s100 LZER0lK[i1F9K];h@>zio2
+Ic4TimKbNO_4FTn?j=RVXW3
+R0
+R1
+R2
+R3
+R4
+L0 70
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vclk_shift
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 RWmVd2mdk71ebnZnPk6Fn2
+I]foJR34=F^MHL1O4OdOmh2
+R1
+R2
+R3
+R4
+L0 2
+R5
+R6
+R7
+R8
+!i113 0
+R9
+vclock_tree
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Mg47`6VKC<k^Y3hzOSGf<2
+I]OEdIglX`<<@aEje2c0ZQ0
+R1
+w1607849573
+8D:/project/fpga_training/User/Verilog/clock_tree.v
+FD:/project/fpga_training/User/Verilog/clock_tree.v
+L0 1
+R5
+!s108 1608452206.234000
+!s107 D:/project/fpga_training/User/Verilog/clock_tree.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/clock_tree.v|
+!i113 0
+R9
+vkey
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 1llhi8@:h`20DXC4JbkZV3
+Ig9O4Da@<XD_k]DC;=NLMW0
+R1
+w1557651965
+8D:/project/fpga_training/User/Verilog/key/key.v
+FD:/project/fpga_training/User/Verilog/key/key.v
+L0 1
+R5
+!s108 1608452206.068000
+!s107 D:/project/fpga_training/User/Verilog/key/key.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/key/key.v|
+!i113 0
+R9
+vkey_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 mdheG?T8^A8O]iO9T>^Vf2
+IHZCg1_mi^>O`63c[_BA0L1
+R1
+w1557665953
+8D:/project/fpga_training/User/Verilog/key/key_top.v
+FD:/project/fpga_training/User/Verilog/key/key_top.v
+L0 1
+R5
+!s108 1608452206.122000
+!s107 D:/project/fpga_training/User/Verilog/key/key_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/key/key_top.v|
+!i113 0
+R9
+vled_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :Cg>Kc0_3Wf^B9>f:RW3>3
+I5Jc?WNj?NMkTWI9zJm?Sk1
+R1
+w1557668124
+8D:/project/fpga_training/User/Verilog/led_top.v
+FD:/project/fpga_training/User/Verilog/led_top.v
+L0 1
+R5
+!s108 1608452205.784000
+!s107 D:/project/fpga_training/User/Verilog/led_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/led_top.v|
+!i113 0
+R9
+vram_1port
+R10
+!i10b 1
+!s100 DnNRhaa7ISYlLBdEaTT5b2
+Ij2UQYUDX2WWQYAH7mcVE_0
+R0
+R1
+Z11 w1607868728
+Z12 8D:/project/fpga_training/Library/rtl_logic/ram_gen.v
+Z13 FD:/project/fpga_training/Library/rtl_logic/ram_gen.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z14 !s108 1608452206.287000
+Z15 !s107 D:/project/fpga_training/Library/rtl_logic/ram_gen.v|
+Z16 !s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Library/rtl_logic/ram_gen.v|
+!i113 0
+R9
+vram_2port_dp
+R10
+!i10b 1
+!s100 Qcjh06N4;2L3cojn1zSDR2
+IRJzGHkRmQW6aiAACXz2;z3
+R0
+R1
+R11
+R12
+R13
+L0 84
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R9
+vram_2port_tp
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 m?J>I=ngOn@l6L4Cl8>_K1
+I=G7PIHXjSbk7;@d6UFh7F0
+R1
+R11
+R12
+R13
+L0 42
+R5
+R14
+R15
+R16
+!i113 0
+R9
+vram_rd
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 PoDNX>ZlDD902ajnDG_Z?2
+I6bR>IG>W4CUc2h5T3D2R=0
+R1
+w1607867904
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v
+Z17 L0 12
+R5
+!s108 1608452205.907000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v|
+!i113 0
+R9
+vram_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;kU3l48Q3ViW98:4NhgYk3
+I45SHih<XnXVKeJ^>`ihVd0
+R1
+w1607937596
+8D:/project/fpga_training/Sim/Verilog_sim/TB/ram_tb.v
+FD:/project/fpga_training/Sim/Verilog_sim/TB/ram_tb.v
+L0 3
+R5
+!s108 1608452206.362000
+!s107 D:/project/fpga_training/Sim/Verilog_sim/TB/ram_tb.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Sim/Verilog_sim/TB/ram_tb.v|
+!i113 0
+R9
+vram_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 <hMAN:M1Zn:JLcb;00OOM1
+IPb6MMDcU_`OIB;;0>9UI]3
+R1
+w1608451692
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_top.v
+L0 1
+R5
+!s108 1608452205.961000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v|
+!i113 0
+R9
+vram_wr
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 1i?JgiD4MVX_M^KzDmSEn3
+IXOW>JW1WUbZSO7WC=[0@j1
+R1
+w1607867933
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v
+R17
+R5
+!s108 1608452206.014000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v|
+!i113 0
+R9
+vtop
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Hj;dF0Cj7gaWegnAkLAH52
+I_zdXGjJziOS30GEUne;h^0
+R1
+w1607871349
+8D:/project/fpga_training/User/Verilog/top.v
+FD:/project/fpga_training/User/Verilog/top.v
+L0 14
+R5
+!s108 1608452205.838000
+!s107 D:/project/fpga_training/User/Verilog/top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/top.v|
+!i113 0
+R9

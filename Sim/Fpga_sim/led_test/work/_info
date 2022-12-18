@@ -1,0 +1,2359 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ResearchProgram/modeltech64_10.4/examples
+va_graycounter
+Z0 !s110 1610248245
+!i10b 1
+!s100 FI?[k<oCFi9HWYigXHGcf0
+I?NPQIKEFnzonN[z=mkIFh1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/project/fpga_training/Sim/Fpga_sim/led_test
+Z3 w1382637282
+Z4 8D:/project/fpga_training/Library/altera_sim/altera_mf.v
+Z5 FD:/project/fpga_training/Library/altera_sim/altera_mf.v
+L0 49136
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+Z7 !s108 1610248245.240000
+Z8 !s107 D:/project/fpga_training/Library/altera_sim/altera_mf.v|
+Z9 !s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Library/altera_sim/altera_mf.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valt3pram
+R0
+!i10b 1
+!s100 UoB51QU2NzKlzLzJ=bSEL0
+I<Yfc`?7E:AaOCNj<MlDRD0
+R1
+R2
+R3
+R4
+R5
+L0 47345
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_aeq_s4
+R0
+!i10b 1
+!s100 De3U5iKLd2^m>6AP07Bnz1
+Il:2Lz5j3B@:UEZUPm8<?K0
+R1
+R2
+R3
+R4
+R5
+L0 50087
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_cal
+R0
+!i10b 1
+!s100 HKVFfVRahGV>P9g8ALcDQ2
+IA`D9i<OYZTiHPm=9[fa^i1
+R1
+R2
+R3
+R4
+R5
+L0 49556
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_cal_av
+R0
+!i10b 1
+!s100 `49e6]>kWCG=V5NEld^2>3
+If3iOMPmcRP[a3[Q^cnRC42
+R1
+R2
+R3
+R4
+R5
+L0 49980
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_cal_c3gxb
+R0
+!i10b 1
+!s100 gIZgll5KAdQ]QekV=Q^@Z1
+Ik?ededEKNOFG0jUMP_8JJ3
+R1
+R2
+R3
+R4
+R5
+L0 49783
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_cal_mm
+R0
+!i10b 1
+!s100 0IDN8ZmocfW6<eWHU681J0
+I_zRfB<?2@5W`XZj>W>SPo2
+R1
+R2
+R3
+R4
+R5
+L0 49658
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_cal_sv
+R0
+!i10b 1
+!s100 L:j`7SA@o>An>6Uom24o80
+IPm=[RSZ;XaESbaeVE`>:[1
+R1
+R2
+R3
+R4
+R5
+L0 49883
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_dfe
+R0
+!i10b 1
+!s100 OG9AL4imc8NAI2_0e7NhH2
+ImVDM7RY2V6cZljRDU`gH90
+R1
+R2
+R3
+R4
+R5
+L0 50464
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valt_eyemon
+R0
+!i10b 1
+!s100 mZJ5_3f<<Mek08mm9@cM_0
+Iho3hOZn8n<_[BBIU=6`?G2
+R1
+R2
+R3
+R4
+R5
+L0 50184
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtaccumulate
+R0
+!i10b 1
+!s100 U?_9`Xn3WD5_NI?X20iQD0
+IK3e^ABAaBO6dO1W4nRVzJ1
+R1
+R2
+R3
+R4
+R5
+L0 31636
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtclklock
+R0
+!i10b 1
+!s100 n:0R:Z@oZQLiaYJ5lW7PR1
+I[m<`WZ4:QChmD@_TLI=@71
+R1
+R2
+R3
+R4
+R5
+L0 42308
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtddio_bidir
+R0
+!i10b 1
+!s100 K8=bnL@8IU0cmK1DRWDAA0
+IG>5FP4le@6S[@zk1`A<e51
+R1
+R2
+R3
+R4
+R5
+L0 43748
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtddio_in
+R0
+!i10b 1
+!s100 HZKX`M0:J`jaci<O?iAJZ0
+IMToMeWi<e9?BmR0XH;n;;0
+R1
+R2
+R3
+R4
+R5
+L0 43234
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtddio_out
+R0
+!i10b 1
+!s100 >7F5=QIOT^g>KYk3jfIYd3
+IWBcc<NXX@gY<_3a;>CL>Z0
+R1
+R2
+R3
+R4
+R5
+L0 43497
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtdpram
+R0
+!i10b 1
+!s100 RFUWO1:6UIR1Zd=I^FA?]0
+I9Mz1:iz]3WD=QQ;@z_MT11
+R1
+R2
+R3
+R4
+R5
+L0 43887
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vALTERA_DEVICE_FAMILIES
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 FhER4>?CTY2IImAQ`W5mU3
+IPV5P`Q7QScIIIc>CLa?oK2
+R2
+R3
+R4
+R5
+L0 1344
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vALTERA_MF_HINT_EVALUATION
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 a=Fe>V8[JB19QF`<JB2a80
+IeCGJo_SCP_6Rm27Q5b9mY1
+R2
+R3
+R4
+R5
+L0 1222
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vALTERA_MF_MEMORY_INITIALIZATION
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1;fUiNdohROUTkB`ZS<H92
+IWdE]inM>YEbOEn:>XD;n`3
+R2
+R3
+R4
+R5
+L0 71
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+valtera_std_synchronizer
+R0
+!i10b 1
+!s100 7[?HRJo41a]bV3me;fe:V3
+IJ9PdP68IEmmOmUb12z:_U3
+R1
+R2
+R3
+R4
+R5
+L0 49362
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtera_std_synchronizer_bundle
+R0
+!i10b 1
+!s100 USLWRb^mBmc@IZ^JSdozY1
+IQBUJjazjIKQQPSPzMLK7P2
+R1
+R2
+R3
+R4
+R5
+L0 49521
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtfp_mult
+R0
+!i10b 1
+!s100 KaM6nc]cEi?0YDMehQ?6@3
+IaS?iM^aiSnOOL_2C7>mQC0
+R1
+R2
+R3
+R4
+R5
+L0 41421
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtlvds_rx
+R0
+!i10b 1
+!s100 6_C4Jg7In?klcRB[IHC2F1
+InoljmMTHk3eUC@<N]U3R43
+R1
+R2
+R3
+R4
+R5
+L0 23702
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtlvds_tx
+R0
+!i10b 1
+!s100 ;1`3_f``Ne?n3JBo5zU;A0
+I5BjRBI>GKKPZXSJ]iFC]c2
+R1
+R2
+R3
+R4
+R5
+L0 27282
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtmult_accum
+R0
+!i10b 1
+!s100 SCeEEa1d]?:=lfjQUW6n:3
+IL28[_h_CZ[cn1D47I9B<42
+R1
+R2
+R3
+R4
+R5
+L0 31878
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtmult_add
+R0
+!i10b 1
+!s100 1ZjS@7hDCKmnGKTS^>UR[3
+IDSkL3CogFzBBNY>hb7ATU3
+R1
+R2
+R3
+R4
+R5
+L0 34083
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtparallel_flash_loader
+R0
+!i10b 1
+!s100 80T6cZS[M4RiV9ZWCR;::0
+IhWi9?iQ3SBGTC@m]6AYSm0
+R1
+R2
+R3
+R4
+R5
+L0 52343
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtpll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SO?n[RkfnA]8Q5:=bzFLh1
+ImV9O[<N;@4dC>@9E18V=n0
+R2
+R3
+R4
+R5
+L0 21688
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtserial_flash_loader
+R0
+!i10b 1
+!s100 VYEIbkH31:gie6T>0@V9<1
+IO2<n[mfA6aMfVW4Ah]mcR0
+R1
+R2
+R3
+R4
+R5
+L0 52463
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtshift_taps
+R0
+!i10b 1
+!s100 NAMlf6oN9M3Z3_Be_ZF?O0
+I[EPkGAb;9`Sj^V9@WE@F<1
+R1
+R2
+R3
+R4
+R5
+L0 49003
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtsource_probe
+R0
+!i10b 1
+!s100 0H^flEVSMh@bBU^0XYX_e1
+IAFCjGEHI5RF[=z;gPAUnz1
+R1
+R2
+R3
+R4
+R5
+L0 52573
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtsqrt
+R0
+!i10b 1
+!s100 mlG82cW8=Hd1fgBLTNPgV1
+IjC5?IOj3beiTMebgC7FAS2
+R1
+R2
+R3
+R4
+R5
+L0 42106
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtsquare
+R0
+!i10b 1
+!s100 9Eei[ULl^mkbXom>N^bYW1
+I56<4Z7EQIocU?@M8iVNf33
+R1
+R2
+R3
+R4
+R5
+L0 49227
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtstratixii_oct
+R0
+!i10b 1
+!s100 KGUlNBc=Gi;Viok]Q?LlS2
+I1]iXl@=A^Oa4@B4M@fZa90
+R1
+R2
+R3
+R4
+R5
+L0 52327
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+valtsyncram
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dGzR1z]M`CFh6=UM4hFOF2
+IM`S73^aN2FeBi9C=Yj;TS0
+R2
+R3
+R4
+R5
+L0 44418
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+varm_m_cntr
+R0
+!i10b 1
+!s100 UefMf4^kW017KKcRl5mSj2
+IXR87izzJY?dAao5e<:_Eo1
+R1
+R2
+R3
+R4
+R5
+L0 6417
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+varm_n_cntr
+R0
+!i10b 1
+!s100 2BOE3zVZ6LT4M>O2K]EBL0
+IkFh8D5d0RofK<EYXeo0>^0
+R1
+R2
+R3
+R4
+R5
+L0 6497
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+varm_scale_cntr
+R0
+!i10b 1
+!s100 IU4XOW;kV@NGTcJKA1<0D2
+Ij_LhB`J3WCCl=P0:b=Z0f3
+R1
+R2
+R3
+R4
+R5
+L0 6579
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vcda_m_cntr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1Y:6BSj4V;T5gH3BD;Ncd0
+I<6SkSVhf@nZmL2d9>B9zj2
+R2
+R3
+R4
+R5
+L0 14356
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vcda_n_cntr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 NiIFaLZmGX?087gNiD6@l0
+I1kNIfnM]chm8JS_VGUiVz2
+R2
+R3
+R4
+R5
+L0 14437
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vcda_scale_cntr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _>CjT]@W=A>jaVMcX]Z_J1
+ISzcfY0AbK=XQ14L7N<DiD2
+R2
+R3
+R4
+R5
+L0 14508
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vclk_even_division
+R0
+!i10b 1
+!s100 <3U@Y;KP`[2ezSYdY7DCL2
+IZLF=m`PMKYEzKg>nkd<;A2
+R1
+R2
+Z12 w1607851181
+Z13 8D:/project/fpga_training/Library/rtl_logic/clock_gen.v
+Z14 FD:/project/fpga_training/Library/rtl_logic/clock_gen.v
+L0 16
+R6
+r1
+!s85 0
+31
+Z15 !s108 1610248245.632000
+Z16 !s107 D:/project/fpga_training/Library/rtl_logic/clock_gen.v|
+Z17 !s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Library/rtl_logic/clock_gen.v|
+!i113 0
+R10
+R11
+vclk_odd_division
+R0
+!i10b 1
+!s100 LZER0lK[i1F9K];h@>zio2
+I>GWNl0L9IWh6`J2lo]S[11
+R1
+R2
+R12
+R13
+R14
+L0 70
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R11
+vclk_shift
+R0
+!i10b 1
+!s100 RWmVd2mdk71ebnZnPk6Fn2
+I]M`YKVlQJ9POk[eJPBAhk3
+R1
+R2
+R12
+R13
+R14
+L0 2
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R11
+vclock_tree
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Edl^CeL4dzUk:68b`e=Pb1
+Ij7`dTPAo:L`5eXo]`GhTF3
+R2
+w1607849573
+8D:/project/fpga_training/User/Verilog/clock_tree.v
+FD:/project/fpga_training/User/Verilog/clock_tree.v
+L0 1
+R6
+!s108 1610248245.710000
+!s107 D:/project/fpga_training/User/Verilog/clock_tree.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA=1|+define+FPGA_PLL=1|+define+FPGA_RAM=1|-stats=none|D:/project/fpga_training/User/Verilog/clock_tree.v|
+!i113 0
+R10
+!s92 +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -work work +define+FPGA=1 +define+FPGA_PLL=1 +define+FPGA_RAM=1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcycloneiiigl_post_divider
+R0
+!i10b 1
+!s100 X2P2VHzbWK64;`H:klo2I1
+Il:JNGFbaO=olYP`^TzHQg1
+R1
+R2
+R3
+R4
+R5
+L0 18226
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dbIOE;QgZ7R^lYSn`5_6_1
+IFQ<KVf7JJaZK>2S]^PWfV3
+R2
+R3
+R4
+R5
+L0 31500
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo_async
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jX;1VVIkhWiH`4C^gg6me3
+Ic3YS87LbWnlehM=Nm06<X0
+R2
+R3
+R4
+R5
+L0 29775
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo_dffpipe
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]6e<BMdmCif^6`3Qa1Tdl0
+Ilm4aTnBmJmZ:V[:JG8lKh2
+R2
+R3
+R4
+R5
+L0 29545
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo_fefifo
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5TzkJd2emHhjiJ@5?TkNP0
+ITReD2dnZ2?h@fGBdiWg?F3
+R2
+R3
+R4
+R5
+L0 29623
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo_low_latency
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l@SPj^6hCeA>NS8NWQQ572
+IT5cWf?@l4b8S?5ZooL=J71
+R2
+R3
+R4
+R5
+L0 30570
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo_mixed_widths
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VPgQkTE860DUFbmGBnbc62
+IN5Rlj3AboQ?VmNVi<_m[=3
+R2
+R3
+R4
+R5
+L0 31188
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdcfifo_sync
+R0
+!i10b 1
+!s100 RG:oS1F40NFFOXgL59mz12
+Il9oJT`gTgVRdi?8]ddR:_1
+R1
+R2
+R3
+R4
+R5
+L0 30261
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdffp
+R0
+!i10b 1
+!s100 `N:3@21P33N<eWgO_]_0d0
+I@ANazNzh_GLKL63XbGeCe1
+R1
+R2
+R3
+R4
+R5
+L0 2195
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdummy_hub
+R0
+!i10b 1
+!s100 _NoKgzE5?0PKX53>ZXDn`3
+IX9Yje6hFQWKZ1G[V;9:@23
+R1
+R2
+R3
+R4
+R5
+L0 51835
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vedge_detect
+Z18 !s110 1610248246
+!i10b 1
+!s100 QG>=FhE2WW=]i_KE`I3963
+IBEhC:o_HW4PTCV^eiPJEg0
+R1
+R2
+Z19 w1608632722
+Z20 8D:/project/fpga_training/Library/rtl_logic/edge_detect.v
+Z21 FD:/project/fpga_training/Library/rtl_logic/edge_detect.v
+L0 47
+R6
+r1
+!s85 0
+31
+Z22 !s108 1610248246.058000
+Z23 !s107 D:/project/fpga_training/Library/rtl_logic/edge_detect.v|
+Z24 !s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|-stats=none|D:/project/fpga_training/Library/rtl_logic/edge_detect.v|
+!i113 0
+R10
+Z25 !s92 +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -work work +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfifo0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :iO_6=M]lfS2n:<ONV0hY1
+I2ZM6^<a9CPzYXe@=o:0A80
+R2
+w1609575243
+8D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/fifo0/fifo0.v
+FD:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/fifo0/fifo0.v
+Z26 L0 39
+R6
+!s108 1610248246.365000
+!s107 D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/fifo0/fifo0.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FIFO|-stats=none|D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/fifo0/fifo0.v|
+!i113 0
+R10
+Z27 !s92 +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -work work +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FIFO -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfifo_data_check
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 aNlado0S^fJ[9af;MKAkf2
+IK1@DaAi?Nh:3VkARNS?Sa0
+R2
+w1610247399
+8D:/project/fpga_training/User/Verilog/fifo_controller/fifo_data_check.v
+FD:/project/fpga_training/User/Verilog/fifo_controller/fifo_data_check.v
+Z28 L0 12
+R6
+!s108 1610248246.115000
+!s107 D:/project/fpga_training/User/Verilog/fifo_controller/fifo_data_check.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-stats=none|D:/project/fpga_training/User/Verilog/fifo_controller/fifo_data_check.v|
+!i113 0
+R10
+Z29 !s92 +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -work work +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfifo_rd
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;lN0BQCoImQz[gBfKjDd_3
+IKnAKfb^<Uh4c<D<F0]E?h2
+R2
+Z30 w1609645807
+8D:/project/fpga_training/User/Verilog/fifo_controller/fifo_rd.v
+FD:/project/fpga_training/User/Verilog/fifo_controller/fifo_rd.v
+R28
+R6
+!s108 1610248246.172000
+!s107 D:/project/fpga_training/User/Verilog/fifo_controller/fifo_rd.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|-stats=none|D:/project/fpga_training/User/Verilog/fifo_controller/fifo_rd.v|
+!i113 0
+R10
+R25
+vfifo_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4<@4Y^i`GV7eR_@6dkR6j3
+Ii3kOHcTHn>IC4[zSj[B]G1
+R2
+w1609749003
+8D:/project/fpga_training/User/Verilog/fifo_controller/fifo_top.v
+FD:/project/fpga_training/User/Verilog/fifo_controller/fifo_top.v
+L0 1
+R6
+!s108 1610248246.229000
+!s107 D:/project/fpga_training/User/Verilog/fifo_controller/fifo_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-stats=none|D:/project/fpga_training/User/Verilog/fifo_controller/fifo_top.v|
+!i113 0
+R10
+R29
+vfifo_wr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 9^]i4D7JO5kN]aCUQ9Q:o0
+ICU5ldU2<mW>>z]H48GUJ52
+R2
+R30
+8D:/project/fpga_training/User/Verilog/fifo_controller/fifo_wr.v
+FD:/project/fpga_training/User/Verilog/fifo_controller/fifo_wr.v
+R28
+R6
+!s108 1610248246.288000
+!s107 D:/project/fpga_training/User/Verilog/fifo_controller/fifo_wr.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FIFO|-stats=none|D:/project/fpga_training/User/Verilog/fifo_controller/fifo_wr.v|
+!i113 0
+R10
+R27
+vflexible_lvds_rx
+R0
+!i10b 1
+!s100 02:Gcb6^@@dZV1TIo<nfW0
+I[iUOPfgPIXN1ogn0ATW]90
+R1
+R2
+R3
+R4
+R5
+L0 25749
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vflexible_lvds_tx
+R0
+!i10b 1
+!s100 <>;Yld:UUG3iYOl5o=<W<1
+I72o5Th]]a^i@8XX:=176k0
+R1
+R2
+R3
+R4
+R5
+L0 28985
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vjtag_tap_controller
+R0
+!i10b 1
+!s100 ?]ofIQc5>JzH2bO?VH=J;3
+I;QiX>9jMR680lWE[a]7NJ2
+R1
+R2
+R3
+R4
+R5
+L0 51378
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vkey
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 feDKN_c=^B:U@0EbGjgES0
+I@Y<QU2JZBLChZ4OaE]XIc2
+R2
+w1608632751
+8D:/project/fpga_training/User/Verilog/key/key.v
+FD:/project/fpga_training/User/Verilog/key/key.v
+L0 1
+R6
+!s108 1610248245.067000
+!s107 D:/project/fpga_training/User/Verilog/key/key.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/key/key.v|
+!i113 0
+R10
+R11
+vkey_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mdheG?T8^A8O]iO9T>^Vf2
+Ibl_G6V_BQWGR7kK347SeP1
+R2
+w1557665953
+8D:/project/fpga_training/User/Verilog/key/key_top.v
+FD:/project/fpga_training/User/Verilog/key/key_top.v
+L0 1
+R6
+!s108 1610248245.122000
+!s107 D:/project/fpga_training/User/Verilog/key/key_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/key/key_top.v|
+!i113 0
+R10
+R11
+vlcell
+R0
+!i10b 1
+!s100 bennFdYA;E0lM[zHEL7e`1
+Io_]J950>`9=12ag`R@WYA0
+R1
+R2
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vled_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jMaBeId]MXRUYD9YgzV6P0
+IWRBd3V=SjDEZ=ana?DN`]0
+R2
+w1609758939
+8D:/project/fpga_training/Sim/Fpga_sim/TB/led_tb.v
+FD:/project/fpga_training/Sim/Fpga_sim/TB/led_tb.v
+L0 3
+R6
+!s108 1610248245.886000
+!s107 D:/project/fpga_training/Sim/Fpga_sim/TB/led_tb.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Sim/Fpga_sim/TB/led_tb.v|
+!i113 0
+R10
+R11
+vled_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 zdBgK=aT>j^UeV0zhWUIT2
+I_XHL7gJZD^K0zknKdFW@c1
+R2
+w1609758273
+8D:/project/fpga_training/User/Verilog/led_top.v
+FD:/project/fpga_training/User/Verilog/led_top.v
+L0 1
+R6
+!s108 1610248244.777000
+!s107 D:/project/fpga_training/User/Verilog/led_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/led_top.v|
+!i113 0
+R10
+R11
+vMF_cycloneiii_pll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 E03OanA8X5YW7I;nWUZo02
+IZnDSW`D80[iofMR<lijNh1
+R2
+R3
+R4
+R5
+L0 14635
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_cycloneiii_pll
+vMF_cycloneiiigl_m_cntr
+R0
+!i10b 1
+!s100 ib1W:VAL;>IG0;Ohl^=aH0
+INdo>Tm@MUNNeE3o_e>S0D0
+R1
+R2
+R3
+R4
+R5
+L0 17964
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_cycloneiiigl_m_cntr
+vMF_cycloneiiigl_n_cntr
+R0
+!i10b 1
+!s100 5`hZV90j2;U>mAjLY76;60
+IMCXFV=b13R9=zaMT^]zW<0
+R1
+R2
+R3
+R4
+R5
+L0 18045
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_cycloneiiigl_n_cntr
+vMF_cycloneiiigl_pll
+R0
+!i10b 1
+!s100 aiXbUX9B9_UHP1OXk`RCn3
+IhJ@4>BLnoUZ2g:K=_=]ah0
+R1
+R2
+R3
+R4
+R5
+L0 18315
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_cycloneiiigl_pll
+vMF_cycloneiiigl_scale_cntr
+R0
+!i10b 1
+!s100 iY9kPDe;GnH^9Jl6HdB?i2
+Ij9Lza1R]hS6L^81ZiLZ3>0
+R1
+R2
+R3
+R4
+R5
+L0 18116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_cycloneiiigl_scale_cntr
+vMF_pll_reg
+R0
+!i10b 1
+!s100 ^4iLbBGC<PMVITDcHe]@T1
+IL?@9A;iEHbF;GSn<E:j660
+R1
+R2
+R3
+R4
+R5
+L0 2552
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_pll_reg
+vMF_stratix_pll
+R0
+!i10b 1
+!s100 jIS[[?fJzEh;VGLPeoi=40
+IEZddD@WOV3bbQ0E=kLGOz2
+R1
+R2
+R3
+R4
+R5
+L0 2611
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_stratix_pll
+vMF_stratixii_pll
+R0
+!i10b 1
+!s100 =0gX3F_dei2=AS]UR>1Mz3
+IPKo?HK?5lMal^W;kd>Ngc0
+R1
+R2
+R3
+R4
+R5
+L0 6702
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_stratixii_pll
+vMF_stratixiii_pll
+R0
+!i10b 1
+!s100 zhgH3E25TG01k5J>j0=VE2
+ISVJNhU]cQ=09_bJW6C8H<2
+R1
+R2
+R3
+R4
+R5
+L0 10533
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@m@f_stratixiii_pll
+vnegedge_detect
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 o3X?T6@GmN@jZ[4HXKd3e2
+IkF0];I755K?SalWhCgPaI0
+R2
+R19
+R20
+R21
+L0 24
+R6
+R22
+R23
+R24
+!i113 0
+R10
+R25
+vparallel_add
+R0
+!i10b 1
+!s100 R:JI^@8R@ojNYJ7TkQn[A2
+IZRV`STUDneADB?7YJ[fm<2
+R1
+R2
+R3
+R4
+R5
+L0 48028
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vpll0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 28A1RTUa72a`Jh;dOSf_G0
+IO=T?Z4_:aYW<2_jE?HEIj0
+R2
+w1557664732
+8D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll0/pll0.v
+FD:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll0/pll0.v
+R26
+R6
+!s108 1610248245.771000
+!s107 D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll0/pll0.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll0/pll0.v|
+!i113 0
+R10
+R11
+vpll1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 NnaaE9nGoH7>1[5MDO5:73
+I3W>W3X3nQ8`5BBG`=]`Z<2
+R2
+w1557667644
+8D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v
+FD:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v
+R26
+R6
+!s108 1610248245.829000
+!s107 D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|-stats=none|D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v|
+!i113 0
+R10
+R25
+vpll_iobuf
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dk0jNB7_dBSdh`GW9TaD02
+I0Kg;M823ERdQ7U5lXSDg71
+R2
+R3
+R4
+R5
+L0 2228
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vposedge_detect
+R18
+!i10b 1
+!s100 <SPLE;ABEde6cY1R60zUA0
+I?biPfTZiLQ0D=cdmehDc_0
+R1
+R2
+R19
+R20
+R21
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R10
+R25
+vram0_2port
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1V=XWYRIKE=U:CYL_OI8V1
+II9Z8S2nlbFO7:N`hV;1752
+R2
+w1557664371
+8D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v
+FD:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v
+R26
+R6
+!s108 1610248245.184000
+!s107 D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|-stats=none|D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v|
+!i113 0
+R10
+R25
+vram_data_check
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 A=8nZM6DD>^A`^AdXZY7H1
+IR:nfSUVkfgf4PL<LANOEV0
+R2
+w1610247706
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_data_check.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_data_check.v
+R28
+R6
+!s108 1610248245.943000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_data_check.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_data_check.v|
+!i113 0
+R10
+R25
+vram_rd
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 PoDNX>ZlDD902ajnDG_Z?2
+IJ@jeI8<X=3idCm1UTmZjS0
+R2
+w1607867904
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v
+R28
+R6
+!s108 1610248244.890000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v|
+!i113 0
+R10
+R11
+vram_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3QCeASQRXd`ih1nbI2bMl1
+I;]TQV;_eYlZkEkzOkU`]>3
+R2
+w1609595122
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_top.v
+L0 1
+R6
+!s108 1610248244.946000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v|
+!i113 0
+R10
+R11
+vram_wr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1i?JgiD4MVX_M^KzDmSEn3
+Ic2AERmS6GWzA[`OleAWTm3
+R2
+w1609642267
+8D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v
+FD:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v
+R28
+R6
+!s108 1610248245.006000
+!s107 D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v|
+!i113 0
+R10
+R11
+vscfifo
+R0
+!i10b 1
+!s100 9nAQ?3;9zNSDfNGa:GzXI1
+I5VAeBjP]0BZXLIG?R6@Sh0
+R1
+R2
+R3
+R4
+R5
+L0 48197
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsignal_gen
+R0
+!i10b 1
+!s100 6Ub;>1_5c8aa;Za=JL09e2
+IDB==9aACC<hhQMP=jcXn?1
+R1
+R2
+R3
+R4
+R5
+L0 50811
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsld_signaltap
+R0
+!i10b 1
+!s100 `^3=Si6]2^Wa9i=NG;7A92
+I]_C[`9k;?F_QT6_FhPMJe0
+R1
+R2
+R3
+R4
+R5
+L0 52219
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsld_virtual_jtag
+R0
+!i10b 1
+!s100 [1XZlI1HHIkc:b4UAS2Bc1
+IU9nB:8H<?b5=zQmh:?6N43
+R1
+R2
+R3
+R4
+R5
+L0 52092
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsld_virtual_jtag_basic
+R0
+!i10b 1
+!s100 YTPka:zjzVSUB[A:Lm9c51
+I8IY@<6_iCbdM<@10NAe^Y0
+R1
+R2
+R3
+R4
+R5
+L0 52495
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratix_lvds_rx
+R0
+!i10b 1
+!s100 obz3JRAQ4omo1];QCkIEB2
+I4]36]ZS1b=MOZaZg<@>[j2
+R1
+R2
+R3
+R4
+R5
+L0 24912
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratix_tx_outclk
+R0
+!i10b 1
+!s100 _UbP_NNjcj1e]_o;QFYB13
+IjXENfYA8nTfkI9E332ceE1
+R1
+R2
+R3
+R4
+R5
+L0 28776
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixgx_dpa_lvds_rx
+R0
+!i10b 1
+!s100 P[:73>kEF[ozl>YHlW=^L2
+IFFAha<6>gHSLARAV>e64X2
+R1
+R2
+R3
+R4
+R5
+L0 25020
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixii_lvds_rx
+R0
+!i10b 1
+!s100 6>addN;Ez_lka]:JHg7?K2
+IMTRj^l0_UblJ5N<?a10La3
+R1
+R2
+R3
+R4
+R5
+L0 25423
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixii_tx_outclk
+R0
+!i10b 1
+!s100 Y8hf6VNAU>J_?4L=a^=<M3
+Ib]<2EO2E:DhGJl8BPIGZW0
+R1
+R2
+R3
+R4
+R5
+L0 28884
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixiii_lvds_rx
+R0
+!i10b 1
+!s100 1OHER8A6UGf^0PJj^2zgc3
+ICG3z80=77@@2k9jfB;USK1
+R1
+R2
+R3
+R4
+R5
+L0 26222
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixiii_lvds_rx_channel
+R0
+!i10b 1
+!s100 ho8;NC0RTagzKBj<<FO;m0
+IcbcAd6Vda@jTcY>hK[5E@3
+R1
+R2
+R3
+R4
+R5
+L0 26404
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixiii_lvds_rx_dpa
+R0
+!i10b 1
+!s100 gRfz=KS_o>1GS:DRM0UF]1
+ITNlKH0IjHiC`gIXX[5UL62
+R1
+R2
+R3
+R4
+R5
+L0 27013
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstratixv_local_clk_divider
+R0
+!i10b 1
+!s100 L0`K5<5Xfg84YiQMQ0WKk2
+IdHZM6;1RkB6?`47D0<dhK0
+R1
+R2
+R3
+R4
+R5
+L0 28682
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstx_m_cntr
+R0
+!i10b 1
+!s100 ]mNcUEi9b=oUDaFoRJMm02
+I8Ebd:k59ZXH9]n;fcj56j3
+R1
+R2
+R3
+R4
+R5
+L0 2254
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstx_n_cntr
+R0
+!i10b 1
+!s100 @Ah4lKEZ1Rd1UC4=5B;h`2
+IOjnSKTCJ2No<1hUV>6@Kb0
+R1
+R2
+R3
+R4
+R5
+L0 2332
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vstx_scale_cntr
+R0
+!i10b 1
+!s100 ;e]RgmVkGETcOb:XlC3O:1
+I@k<hi]0]DR6YHPmdg=ORX0
+R1
+R2
+R3
+R4
+R5
+L0 2417
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsync_ff
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 WI]@X;f4FhF8m^2j?5B[?0
+InK[1iz@fIi418o:HZ6Rdn1
+R2
+Z31 w1608627662
+Z32 8D:/project/fpga_training/Library/rtl_logic/sync_ff.v
+Z33 FD:/project/fpga_training/Library/rtl_logic/sync_ff.v
+L0 1
+R6
+Z34 !s108 1610248246.000000
+Z35 !s107 D:/project/fpga_training/Library/rtl_logic/sync_ff.v|
+Z36 !s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|-stats=none|D:/project/fpga_training/Library/rtl_logic/sync_ff.v|
+!i113 0
+R10
+R25
+vsync_ff_2d
+R18
+!i10b 1
+!s100 aMC@_^L=L9hK<<IOj]R^k3
+I3I_iU^JY5b@Y=SePcUAHn1
+R1
+R2
+R31
+R32
+R33
+L0 23
+R6
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R10
+R25
+vsync_ff_3d
+R18
+!i10b 1
+!s100 Zd`_[S92QL5=G9KQ[SY4L1
+IRRZc^eig3jmZ:Qm`@K;TY0
+R1
+R2
+R31
+R32
+R33
+L0 55
+R6
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R10
+R25
+vtop
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 B2bm_?aF3a?dON_E4AGA@1
+IzokzN6[`kV6QB@z24Z_`N2
+R2
+w1609595152
+8D:/project/fpga_training/User/Verilog/top.v
+FD:/project/fpga_training/User/Verilog/top.v
+L0 14
+R6
+!s108 1610248244.835000
+!s107 D:/project/fpga_training/User/Verilog/top.v|
+!s90 -##implicit##push_minusfile_path##|D:/project/fpga_training/Sim/Fpga_sim/pll_test/vlog.opt|+define+FPGA|+define+FPGA_PLL|+define+FPGA_RAM|+define+FPGA_FIFO|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-vopt|-stats=none|D:/project/fpga_training/User/Verilog/top.v|
+!i113 0
+R10
+R11
+vttn_m_cntr
+R0
+!i10b 1
+!s100 2OmWMI8G<WFToI_I9jC3M2
+IRSj4zS[[3?h8DmLONmIE>3
+R1
+R2
+R3
+R4
+R5
+L0 10254
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vttn_n_cntr
+R0
+!i10b 1
+!s100 SB5IH?MR<[ZQR?0=^J1AN2
+I:@JVo[F=8EZIZGgjA[N9H3
+R1
+R2
+R3
+R4
+R5
+L0 10335
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vttn_scale_cntr
+R0
+!i10b 1
+!s100 nSWM0Nk=zn@b51SRfW@z31
+I;];eTej=@DHLTCoQGM[b[0
+R1
+R2
+R3
+R4
+R5
+L0 10406
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11

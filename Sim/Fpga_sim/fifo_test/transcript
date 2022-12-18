@@ -1,0 +1,189 @@
+# Reading C:/ResearchProgram/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile D:/project/fpga_training/Sim/Fpga_sim/fifo_test/fifo_test.mpf
+# Loading project fifo_test
+# Compile of fifo_tb.v was successful.
+# Compile of fifo0.v was successful.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_tree.v was successful.
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of fifo_rd.v was successful.
+# Compile of fifo_top.v was successful.
+# Compile of fifo_wr.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v was successful.
+# Compile of key_top.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of fifo_data_check.v was successful.
+# 21 compiles, 0 failed with no errors.
+vlog
+# Modified D:/project/fpga_training/Sim/Fpga_sim/fifo_test/fifo_test.mpf
+# Compile of fifo_tb.v was successful.
+# Compile of fifo0.v was successful.
+# Compile of pll0.v was successful.
+# Compile of pll1.v was successful.
+# Compile of ram0_2port.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of clock_tree.v was successful.
+# Compile of led_top.v was successful.
+# Compile of top.v was successful.
+# Compile of fifo_rd.v was successful.
+# Compile of fifo_top.v was successful.
+# Compile of fifo_wr.v was successful.
+# Compile of ram_data_check.v was successful.
+# Compile of ram_rd.v was successful.
+# Compile of ram_top.v was successful.
+# Compile of ram_wr.v was successful.
+# Compile of key.v was successful.
+# Compile of key_top.v was successful.
+# Compile of sync_ff.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of fifo_data_check.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -novopt work.fifo_tb
+# vsim -gui D:\project\fpga_training\Sim\Fpga_sim\fifo_test\fifo_test.mpf 
+# Start time: 18:43:39 on Jan 04,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.fifo_tb
+# Loading work.fifo_tb
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.top
+# Loading work.top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.clock_tree
+# Loading work.clock_tree
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.pll0
+# Loading work.pll0
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.altpll
+# Loading work.altpll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.pll_iobuf
+# Loading work.pll_iobuf
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.pll1
+# Loading work.pll1
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ram_top
+# Loading work.ram_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ram_rd
+# Loading work.ram_rd
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ram_wr
+# Loading work.ram_wr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ram0_2port
+# Loading work.ram0_2port
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.altsyncram
+# Loading work.altsyncram
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ram_data_check
+# Loading work.ram_data_check
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.sync_ff
+# Loading work.sync_ff
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.fifo_top
+# Loading work.fifo_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.fifo_rd
+# Loading work.fifo_rd
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.fifo_wr
+# Loading work.fifo_wr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.fifo0
+# Loading work.fifo0
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.dcfifo
+# Loading work.dcfifo
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.dcfifo_mixed_widths
+# Loading work.dcfifo_mixed_widths
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.dcfifo_low_latency
+# Loading work.dcfifo_low_latency
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.ALTERA_MF_HINT_EVALUATION
+# Loading work.ALTERA_MF_HINT_EVALUATION
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.dcfifo_dffpipe
+# Loading work.dcfifo_dffpipe
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.fifo_data_check
+# Loading work.fifo_data_check
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.key_top
+# Loading work.key_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.led_top
+# Loading work.led_top
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.MF_cycloneiii_pll
+# Loading work.MF_cycloneiii_pll
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.cda_m_cntr
+# Loading work.cda_m_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.cda_n_cntr
+# Loading work.cda_n_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.cda_scale_cntr
+# Loading work.cda_scale_cntr
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.dcfifo_async
+# Loading work.dcfifo_async
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.dcfifo_fefifo
+# Loading work.dcfifo_fefifo
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.key
+# Loading work.key
+# Refreshing D:/project/fpga_training/Sim/Fpga_sim/fifo_test/work.negedge_detect
+# Loading work.negedge_detect
+add wave -position insertpoint sim:/fifo_tb/u_top/u_fifo_top/*
+add wave -position insertpoint  \
+sim:/fifo_tb/u_top/u_fifo_top/clk_25m \
+sim:/fifo_tb/u_top/u_fifo_top/clk_50m \
+sim:/fifo_tb/u_top/u_fifo_top/rstn \
+sim:/fifo_tb/u_top/u_fifo_top/key_press \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_state \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_wr_req \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_wr_full \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_wr_empty \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_wr_data \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_wr_usedw \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_rd_req \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_rd_full \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_rd_empty \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_rd_data \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_rd_usedw \
+sim:/fifo_tb/u_top/u_fifo_top/fifo_enable
+run
+# Running testbench
+# Simulation start...
+# 
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: fifo_tb.u_top.u_ram_top.ram0_2port_inst.altsyncram_component
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: fifo_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: fifo_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# sys_rstn = 1
+# 
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: fifo_tb.u_top.u_clock_tree.pll1_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: fifo_tb.u_top.u_clock_tree.pll0_inst.altpll_component.cycloneiii_pll.pll3
+# FIFO running...
+# 
+# FIFO stop...
+# 
+# FIFO running...
+# 
+# FIFO stop...
+# 
+# Simulation end.
+# 
+# ** Note: $stop    : D:/project/fpga_training/Sim/Fpga_sim/TB/fifo_tb.v(47)
+#    Time: 4900 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at D:/project/fpga_training/Sim/Fpga_sim/TB/fifo_tb.v line 47
+# End time: 18:44:11 on Jan 04,2021, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1

@@ -1,0 +1,8 @@
+
+State Machine - |top|led_top:u_led_top|curr_st
+Name curr_st.S4 curr_st.S3 curr_st.S2 curr_st.S1 curr_st.S0 
+curr_st.S0 0 0 0 0 0 
+curr_st.S1 0 0 0 1 1 
+curr_st.S2 0 0 1 0 1 
+curr_st.S3 0 1 0 0 1 
+curr_st.S4 1 0 0 0 1 
