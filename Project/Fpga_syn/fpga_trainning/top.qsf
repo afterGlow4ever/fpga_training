@@ -148,10 +148,10 @@ set_global_assignment -name QIP_FILE ../Verilog/ipcores/pll1/pll1.qip
 set_global_assignment -name QIP_FILE ../Verilog/ipcores/fifo0/fifo0.qip
 set_global_assignment -name QIP_FILE ../Verilog/stp/fpga_training_stp/fpga_training_stp.qip
 set_global_assignment -name CDF_FILE output_files/top_jic.cdf
+set_global_assignment -name CDF_FILE output_files/top.cdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY ucloc_8ddb1 -to "clock_tree:u_clock_tree" -section_id "clock_tree:u_clock_tree"
 set_instance_assignment -name PARTITION_HIERARCHY ufifo_5fca1 -to "fifo_top:u_fifo_top" -section_id "fifo_top:u_fifo_top"
 set_instance_assignment -name PARTITION_HIERARCHY ukeyt_25131 -to "key_top:u_key_top" -section_id "key_top:u_key_top"
 set_instance_assignment -name PARTITION_HIERARCHY uledt_acf01 -to "led_top:u_led_top" -section_id "led_top:u_led_top"
 set_instance_assignment -name PARTITION_HIERARCHY uramt_3b601 -to "ram_top:u_ram_top" -section_id "ram_top:u_ram_top"
-set_global_assignment -name CDF_FILE output_files/top.cdf

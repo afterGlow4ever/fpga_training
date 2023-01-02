@@ -1,30 +1,9 @@
-D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/ram_controller/ram_top.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ram_top
-
-Top level modules:
-	ram_top
-
-} {} {}} D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v
+D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/ram0_2port/ram0_2port.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module ram0_2port
 
 Top level modules:
 	ram0_2port
-
-} {} {}} D:/project/fpga_training/Sim/Fpga_sim/TB/led_tb.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/Sim/Fpga_sim/TB/led_tb.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module led_tb
-
-Top level modules:
-	led_tb
-
-} {} {}} D:/project/fpga_training/User/Verilog/led_top.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/led_top.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module led_top
-
-Top level modules:
-	led_top
 
 } {} {}} D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/ram_controller/ram_rd.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -61,24 +40,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	fifo_wr
 
-} {} {}} D:/project/fpga_training/User/Verilog/fifo_controller/fifo_top.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM +define+FPGA_FIFO -stats=none D:/project/fpga_training/User/Verilog/fifo_controller/fifo_top.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module fifo_top
-
-Top level modules:
-	fifo_top
-
-} {} {}} D:/project/fpga_training/Library/rtl_logic/sync_ff.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/Library/rtl_logic/sync_ff.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module sync_ff
--- Compiling module sync_ff_2d
--- Compiling module sync_ff_3d
-
-Top level modules:
-	sync_ff
-	sync_ff_2d
-	sync_ff_3d
-
 } {} {}} D:/project/fpga_training/User/Verilog/fifo_controller/fifo_rd.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/User/Verilog/fifo_controller/fifo_rd.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module fifo_rd
@@ -92,31 +53,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	fifo_data_check
-
-} {} {}} D:/project/fpga_training/User/Verilog/key/key.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/key/key.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module key
-
-Top level modules:
-	key
-
-} {} {}} D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ram_wr
-
-Top level modules:
-	ram_wr
-
-} {} {}} D:/project/fpga_training/Library/rtl_logic/clock_gen.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/Library/rtl_logic/clock_gen.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module clk_shift
--- Compiling module clk_even_division
--- Compiling module clk_odd_division
-
-Top level modules:
-	clk_shift
-	clk_even_division
-	clk_odd_division
 
 } {} {}} D:/project/fpga_training/Library/altera_sim/altera_mf.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/Library/altera_sim/altera_mf.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -244,37 +180,12 @@ Top level modules:
 	sld_virtual_jtag_basic
 	altsource_probe
 
-} {} {}} D:/project/fpga_training/Library/rtl_logic/edge_detect.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/Library/rtl_logic/edge_detect.v
+} {} {}} D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/ram_controller/ram_wr.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module posedge_detect
--- Compiling module negedge_detect
--- Compiling module edge_detect
+-- Compiling module ram_wr
 
 Top level modules:
-	posedge_detect
-	negedge_detect
-	edge_detect
-
-} {} {}} D:/project/fpga_training/User/Verilog/top.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/top.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module top
-
-Top level modules:
-	top
-
-} {} {}} D:/project/fpga_training/User/Verilog/key/key_top.v {1 {vlog -work work -vopt -stats=none D:/project/fpga_training/User/Verilog/key/key_top.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module key_top
-
-Top level modules:
-	key_top
-
-} {} {}} D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module pll1
-
-Top level modules:
-	pll1
+	ram_wr
 
 } {} {}} D:/project/fpga_training/User/Verilog/clock_tree.v {2 {vlog -work work -vopt +define+FPGA=1 +define+FPGA_PLL=1 +define+FPGA_RAM=1 -stats=none D:/project/fpga_training/User/Verilog/clock_tree.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -288,5 +199,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	clock_tree
+
+} {} {}} D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v {1 {vlog -work work -vopt +define+FPGA +define+FPGA_PLL +define+FPGA_RAM -stats=none D:/project/fpga_training/Project/Fpga_syn/Verilog/ipcores/pll1/pll1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pll1
+
+Top level modules:
+	pll1
 
 } {} {}}
